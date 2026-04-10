@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FiCode, FiCpu, FiLayers, FiDownload } from 'react-icons/fi';
+import { FiCode, FiCpu, FiLayers } from 'react-icons/fi';
 import { personalInfo, projects, skills } from '../../data/portfolioData';
 import './About.css';
 
@@ -53,13 +53,7 @@ function About() {
             {personalInfo.bio.split('\n\n').map((para, i) => (
               <p key={i} className="about__bio-text">{para}</p>
             ))}
-            <a
-              href={personalInfo.resumeLink}
-              className="btn btn-primary about__resume-btn"
-              id="about-download-resume"
-            >
-              <FiDownload /> Download Resume
-            </a>
+
           </motion.div>
 
           <motion.div className="about__stats" variants={itemVariants}>

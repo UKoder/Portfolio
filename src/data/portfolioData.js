@@ -141,9 +141,9 @@ export const hackathons = [
 export const navLinks = [
   { name: "Home", to: "hero" },
   { name: "About", to: "about" },
-  { name: "Skills", to: "skills" },
-  { name: "Projects", to: "projects" },
   { name: "Education", to: "education" },
+  { name: "Projects", to: "projects" },
+  { name: "Skills", to: "skills" },
   { name: "Certificates", to: "certifications" },
   { name: "Events", to: "hackathons" },
   { name: "Contact", to: "contact" },

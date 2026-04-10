@@ -16,9 +16,9 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Skills />
-      <Projects />
       <Education />
+      <Projects />
+      <Skills />
       <Certifications />
       <Hackathons />
       <Contact />
